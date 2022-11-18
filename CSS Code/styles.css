@@ -1,0 +1,303 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  border-bottom: 1px rgba(128, 128, 128, 0.3) solid;
+  height: 22vh;
+}
+header h1 {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 3.5em;
+  text-align: center;
+  color: rgb(145, 147, 58);
+  letter-spacing: 0.25em;
+  padding-top: calc(10vh - 32px);
+  /* border: 2px red solid; */
+}
+header h2 {
+  font-family: La Belle Aurore;
+  text-align: center;
+  display: inline-block;
+  color: rgba(78, 76, 17);
+  margin-top: -5px;
+  font-weight: lighter;
+  font-size: 1.7em;
+  margin-left: 41%;
+  /* border: 2px green solid; */
+}
+header div {
+  margin-top: -130px;
+  margin-left: 230px;
+  color: grey;
+  font-family: Barlow Condensed;
+  letter-spacing: 1px;
+}
+.taskbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 60vw;
+  margin: auto;
+  /* margin-top: 15px; */
+}
+.taskbar div {
+  text-align: center;
+  font-size: 1em;
+  font-family: Montserrat;
+  font-weight: 300;
+  height: 48px;
+  justify-content: center;
+}
+.taskbar-div {
+  align-items: center;
+}
+.taskbar-div a {
+  color: #333333;
+  padding-top: 10px;
+}
+/* .taskbar div:hover {
+  background-color: yellow;
+} */
+.taskbar-div a:link {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  display: block;
+  transition: 200ms;
+}
+.taskbar-div a:hover {
+  color: white;
+  height: calc(100% - 10px);
+}
+.taskbar-div a:hover {
+  background-color: rgb(145, 147, 58);
+}
+#first-home-photo {
+  background: url(/Images/pexels-ella-olsson-1640772.jpg) no-repeat center /
+    cover;
+  height: 93.7vh;
+  /* margin-top: 15px; */
+}
+.chat-button {
+  background: rgb(161, 138, 4);
+  display: flex;
+  width: 17%;
+  height: 7vh;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  border: none;
+}
+.chat-button h4 {
+  font-size: 1em;
+}
+/* .chat-button a {
+  color: white;
+  text-decoration: none;
+}
+.chat-button a:link {
+  display: block;
+}
+.chat-button a:hover {
+  color: white;
+  text-decoration: none;
+} */
+.chat-button-close {
+  position: fixed;
+  right: 270px;
+  bottom: 80px;
+  background-color: grey;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: white;
+  border: 2px white solid;
+}
+.main-testimonial h1::before {
+  content: open-quote;
+  font-size: 2em;
+  font-family: Montserrat;
+  color: #333333;
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+.main-testimonial h1::after {
+  content: close-quote;
+  font-size: 2em;
+  position: relative;
+  top: 10px;
+  font-family: Montserrat;
+  color: #333333;
+}
+.main-testimonial {
+  text-align: center;
+  padding-top: 5%;
+  height: 40vh;
+}
+.main-testimonial h1 {
+  font-family: La Belle Aurore;
+  color: rgb(127, 111, 60);
+}
+.main-testimonial h4 {
+  color: rgb(145, 147, 58);
+  font-size: 2em;
+  font-family: Barlow Condensed;
+}
+.home-section-3 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(127, 111, 60);
+  border-top: 50px solid rgb(127, 111, 60);
+}
+.home-section-3 .div-1 {
+  background: url(/Images/brooke-lark-RrzeCGujVfU-unsplash.jpg) no-repeat center /
+    cover;
+  height: 564.2px;
+  width: 376.1px;
+  margin-right: 20px;
+}
+.home-section-3 .div-2 {
+  background: url(/Images/calum-lewis-vA1L1jRTM70-unsplash.jpg) no-repeat center /
+    cover;
+  height: 535.3px;
+  width: 356.9px;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+.home-section-4 .div-3 {
+  background: url(/Images/nathan-dumlao-bRdRUUtbxO0-unsplash.jpg) no-repeat
+    center / cover;
+  width: 382.7px;
+  height: 574px;
+  margin-right: 130px;
+  margin-top: -150px;
+}
+.home-section-4 .div-4 {
+  background: url(/Images/priyanka-singh-sZCcZFQ9Hrc-unsplash.jpg) no-repeat
+    center / cover;
+  height: 580.7px;
+  width: 370px;
+  margin-left: -110px;
+  margin-top: 35px;
+}
+.home-section-4 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(127, 111, 60);
+  border-bottom: 50px solid rgb(127, 111, 60);
+}
+.before-home-section-3 {
+  width: 20vw;
+  margin-left: 785px;
+  text-align: center;
+  font-size: 4em;
+  font-family: Barlow Condensed;
+  margin-bottom: -255px;
+  color: white;
+}
+.after-home-section-4 {
+  width: 20vw;
+  margin-left: 380px;
+  text-align: center;
+  font-size: 4em;
+  font-family: Barlow Condensed;
+  margin-top: -250px;
+  margin-bottom: 160px;
+  color: white;
+}
+.home-order-online {
+  height: 400vh;
+}
+.home-order-online-background-div {
+  height: 100vh;
+  background: url(/Images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) no-repeat
+    center / cover;
+  position: sticky;
+  top: 0;
+  /* border: 2px red solid; */
+  z-index: -100;
+  opacity: 0.6;
+}
+.home-order-online-2 {
+  height: 100vh;
+  /* border: 2px green solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  color: black;
+  font-family: Montserrat;
+  position: sticky;
+  top: -100px;
+}
+.home-order-online-3 {
+  height: 100vh;
+  /* border: 2px blue solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  color: black;
+  font-family: Montserrat;
+  position: sticky;
+  top: -10px;
+}
+.home-order-online-4 {
+  height: 100vh;
+  /* border: 2px yellow solid; */
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.home-order-online-4 button {
+  height: 10%;
+  width: 40%;
+  margin-left: 30%;
+  background: rgba(146, 144, 58, 0);
+  border: 2px black solid;
+  font-size: 3em;
+  font-family: Barlow Condensed;
+  position: sticky;
+  top: 430px;
+  transition: ease-in 200ms;
+}
+
+.home-order-online-4 button:hover {
+  background: #fceb91;
+  color: black;
+  border: none;
+}
+.Our-Locations {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  transform: translateX(40%);
+  overflow: scroll;
+}
+.locations {
+  height: 40%;
+  width: 30vw;
+  border: 2px solid red;
+}
+.seattle {
+  background: url(/Images/Seattle.jpg) no-repeat center / cover;
+}
+.losangeles {
+  background: url(/Images/LosAngeles.jpg) no-repeat center / cover;
+}
+.nyc {
+  background: url(/Images/NYC.jpg) no-repeat center / cover;
+}
+.miami {
+  background: url(/Images/Miami.jpg) no-repeat center / cover;
+}
